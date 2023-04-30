@@ -5,7 +5,7 @@ button.addEventListener('click', webpage)
 github.addEventListener('click', githubpage)
 
 function webpage () {
-    window.open('https://amazing-platypus-90c655.netlify.app/')
+    window.open('https://orianabuenoduque.netlify.app/')
 }
 
 function githubpage () {
