@@ -1,7 +1,7 @@
 # Portfolio
 Professional portfolio of Samuel Vanegas Bueno 🛸
 
-Link: https://svbportfolio.netlify.app/
+Link: https://samuelvanegasbueno.netlify.app/
 
 Status: Constantly updated
 
