@@ -113,13 +113,13 @@ main {
 
 /* Proyectos Container */
 
-
 #proyectos__container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
+
 
 
 
@@ -134,12 +134,11 @@ main {
     border-radius: 10px;
     padding: 5px;
     text-align: center;
-    max-width: 400px;
+    max-width: 385px;
+    min-height: 400px;
     margin: 0px;
     margin-top: 30px;
     background-color: white;
-    display: inline-block;
-    vertical-align: top;
     box-shadow: 0 2px 8px rgba(204, 204, 204, 0.5)
 }
 
@@ -179,6 +178,34 @@ main {
 
 
 
+
+
+/* Proyecto 2 */
+
+#proyecto2 {
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    min-width: 385px;
+    min-height: 400px;
+    margin: 0px;
+    margin-top: 30px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(204, 204, 204, 0.5)
+}
+
+#proyecto2__h3 {
+    font-size: 22px;
+}
+
+#proyecto2__p {
+    font-size: 22px;
+}
+
+#proyecto2__p:hover {
+   animation: move 1s ease-in-out;
+   animation-iteration-count: infinite;
+}
 
 
 
@@ -364,6 +391,24 @@ body::-webkit-scrollbar-thumb:hover {
     height: 35px;
    }
 
+
+
+
+
+   #proyectos__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+   }
+
+
+
+
+
+
+
    
 
 
@@ -375,6 +420,7 @@ body::-webkit-scrollbar-thumb:hover {
     padding: 5px;
     text-align: center;
     max-width: 200px;
+    min-height: 100px;
     margin: 0px;
     margin-top: 30px;
     background-color: white;
@@ -425,4 +471,88 @@ body::-webkit-scrollbar-thumb:hover {
 
 
 
+
+
+
+
+
+
+    #proyecto2 {
+        border-radius: 10px;
+        padding: 5px;
+        text-align: center;
+        min-width: 200px;
+        min-height: 249px;
+        margin: 0px;
+        margin-top: 30px;
+        background-color: white;
+        display: inline-block;
+        vertical-align: top;
+        box-shadow: 0 2px 8px rgba(204, 204, 204, 0.5)
+    }
+    
+    #proyecto2__h3 {
+        font-size: 15px;
+    }
+    
+    #proyecto2__p {
+        font-size: 18px;
+    }
+    
+    #proyecto2__p:hover {
+       animation: move 1s ease-in-out;
+       animation-iteration-count: infinite;
+    }
+
+
+
 }
+
+
+
+
+
+
+/* Key Frames */
+
+@keyframes move {
+    0% {
+      transform: rotate(10deg);
+    }
+    10% {
+      transform: rotate(12deg);
+    }
+    20% {
+      transform: rotate(14deg);
+    }
+    30% {
+      transform: rotate(16deg);
+    }
+    40% {
+      transform: rotate(18deg);
+    }
+
+    40% {
+        transform: rotate(20deg);
+    }
+
+
+      50% {
+        transform: rotate(10deg);
+      }
+      60% {
+        transform: rotate(18deg);
+      }
+      70% {
+        transform: rotate(16deg);
+      }
+      80% {
+        transform: rotate(14deg);
+      }
+      90% {
+        transform: rotate(12deg);
+      }
+      100% {
+        transform: rotate(10deg);
+      }
+  }
