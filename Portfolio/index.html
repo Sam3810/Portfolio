@@ -109,15 +109,16 @@
             <h3 id="formulario__h3">Contacto</h3>
 
             <label for="">Nombre</label>
-            <input required class="input" type="text" name="nombre">
+            <input id="input__nombre" required class="input" type="text" name="nombre">
 
             <label for="">Correo</label>
-            <input required class="input" type="text" name="correo">
+            <input id="input__correo" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" class="input" type="email" name="correo">
 
             <label for="">Mensaje</label>
-            <textarea required name="mensaje" id="" cols="15" rows="5"></textarea>
+            <textarea id="input__mensaje" required name="mensaje" id="" cols="15" rows="5"></textarea>
 
             <input id="input__enviar" type="submit" value="Enviar">
+
             <input type="hidden" name="_next" value="https://samuelvanegasbueno.netlify.app/">
             <input type="hidden" name="_captcha" value="false">
         </form>
