@@ -54,3 +54,7 @@ h1, h2, p {
 #a:hover {
     transform: scale(1.2);
 }
+
+#img:hover {
+    transform: scale(1.1);
+}

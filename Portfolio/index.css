@@ -312,11 +312,6 @@ main {
     padding-right: 5px;
 }
 
-#contacto {
-    margin: 0px;
-    margin-top: 15px;
-}
-
 
 footer {
     display: flex;
@@ -333,7 +328,7 @@ footer {
 /* Formulario */
 
 .input {
-    min-width: 300px;
+    min-width: 350px;
 }
 
 #formulario__container {
@@ -388,7 +383,8 @@ textarea {
     resize: none;
     border-radius: 5px;
     border: 1px solid black;
-    min-width: 300px;
+    min-width: 350px;
+    min-height: 150px;
     padding: 5px;
     margin-top: 10px;
 }
@@ -586,7 +582,6 @@ body::-webkit-scrollbar-thumb:hover {
 
 
 
-    /* Terminar de arreglar el width moviles formulario container */
 
 
 
