@@ -28,6 +28,8 @@ h1, h2, p {
 #h1 {
     font-size: 50px;
     margin: 0;
+    display: flex;
+    text-align: center;
 }
 
 #p {
