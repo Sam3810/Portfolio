@@ -25,7 +25,7 @@ function githubpage () {
 submit.addEventListener('click', function() {
 
     if (nombre.value !== "" && correo.value !== "" && mensaje.value !== "") {
-        alert('Correo enviado exitosamente')
+        window.location.href = "send.html";
     }
     
 });
