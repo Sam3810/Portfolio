@@ -22,18 +22,18 @@ h1, h2, p {
 }
 
 #img {
-    max-width: 125px;
+    max-width: 120px;
 }
 
 #h1 {
-    font-size: 50px;
+    font-size: 45px;
     margin: 0;
     display: flex;
     text-align: center;
 }
 
 #p {
-    font-size: 25px;
+    font-size: 20px;
     margin: 0;
     margin-top: 20px;
     display: flex;
