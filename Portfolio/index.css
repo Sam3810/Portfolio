@@ -602,13 +602,85 @@ body::-webkit-scrollbar-thumb:hover {
 
 
 
-
-
-
-
-
+    /* Proyecto 2 */
 
     #proyecto2 {
+        border-radius: 10px;
+        padding: 5px;
+        text-align: center;
+        max-width: 200px;
+        min-height: 100px;
+        margin: 0px;
+        margin-top: 30px;
+        background-color: white;
+        display: inline-block;
+        vertical-align: top;
+        box-shadow: 0 2px 8px rgba(204, 204, 204, 0.5)
+    }
+    
+        #proyecto2__button {
+        background-color: rgb(255, 255, 164);
+        color: black;
+        border-radius: 5px;
+        width: 45px;
+        height: 25px;
+        margin: 0px;
+        margin-bottom: 5px;
+        font-size: 10px;
+        border: solid rgb(211, 211, 134);
+        transition-duration: 0.3s;
+        font-family: 'Montserrat', sans-serif;
+        transition-duration: 0.5s;
+        text-align: center;
+        padding: 0;
+    }
+    
+        #proyecto2__button:hover {
+        transform: scale(1.2);
+        background-color: rgb(231, 231, 149);
+        border: solid rgb(209, 209, 134);
+    }
+    
+        #proyecto2__img {
+        width: 160px;
+        height: 90px;
+        border-radius: 5px;
+        border: 2px solid rgb(138, 138, 138);
+        padding: 0;
+    }
+    
+        #proyecto2__h3 {
+        text-align: center;
+        font-size: 15px;
+    }
+    
+        #proyecto2__p {
+            font-size: 10px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Poryecto 3 */
+
+
+
+    #proyecto3 {
         border-radius: 10px;
         padding: 5px;
         text-align: center;
@@ -622,15 +694,15 @@ body::-webkit-scrollbar-thumb:hover {
         box-shadow: 0 2px 8px rgba(204, 204, 204, 0.5)
     }
     
-    #proyecto2__h3 {
+    #proyecto3__h3 {
         font-size: 15px;
     }
     
-    #proyecto2__p {
+    #proyecto3__p {
         font-size: 18px;
     }
     
-    #proyecto2__p:hover {
+    #proyecto3__p:hover {
        animation: move 1s ease-in-out;
        animation-iteration-count: infinite;
     }
