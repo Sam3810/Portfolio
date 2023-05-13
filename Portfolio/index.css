@@ -169,6 +169,12 @@ main {
     border-radius: 5px;
     border: 2px solid rgb(138, 138, 138);
     padding: 0;
+    object-fit: cover;
+    transition-duration: 0.5s;
+}
+
+#proyecto__img:hover {
+    transform: scale(1.05);
 }
 
 #proyecto__h3 {
@@ -215,11 +221,17 @@ main {
 }
 
 #proyecto2__img {
-    width: 330px;
+    width: 360px;
     height: 170px;
     border-radius: 5px;
     border: 2px solid rgb(138, 138, 138);
     padding: 0;
+    object-fit: cover;
+    transition-duration: 0.5s;
+}
+
+#proyecto2__img:hover {
+    transform: scale(1.05);
 }
 
 #proyecto2__h3 {
