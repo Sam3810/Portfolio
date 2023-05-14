@@ -91,3 +91,43 @@ label {
     justify-content: flex-start;
     margin-top: 20px;
 }
+
+@media (max-width: 576px) {
+
+    .input {
+        min-width: 350px;
+        background-color: rgb(30, 29, 43);
+        color: white;
+        margin: 10px auto;
+    }
+    
+    textarea {
+        resize: none;
+        border-radius: 5px;
+        border: 1px solid rgb(30, 29, 43);
+        min-width: 350px;
+        min-height: 150px;
+        padding: 10px;
+        margin-top: 10px;
+        background-color: rgb(30, 29, 43);
+        font-family: sans-serif;
+        color: white;
+    }
+
+    label {
+        display: flex;
+        justify-content: center;
+    }
+
+    textarea {
+        display: flex;
+        justify-content: center;
+        margin: 10px auto;
+    }
+
+    input {
+        display: flex;
+        justify-content: center;
+        margin: 10px auto;
+    }
+}
