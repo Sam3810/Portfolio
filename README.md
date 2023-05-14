@@ -5,7 +5,8 @@ Link: https://samuelvanegasbueno.netlify.app/
 
 Status: Constantly updated
 
-[![image-1.png](https://i.postimg.cc/fbRtxcmv/image-1.png)](https://postimg.cc/75jZ4TBC)
+![image](https://github.com/Sam3810/Portfolio/assets/118696492/709f3ab2-1146-49f2-ab7f-45128eb01f3d)
 
 
 Do you want to help me? Leave your comment:
+
