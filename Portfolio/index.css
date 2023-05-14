@@ -436,7 +436,7 @@ body::-webkit-scrollbar-button {
     display: flex;
     justify-content: center;
     align-items: center;
-    backdrop-filter: blur(10px);
+    background-color: rgb(3, 0, 20);
    }
 
    
