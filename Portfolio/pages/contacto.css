@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(rgb(3, 0, 20), rgb(13, 24, 40));
+    font-weight: 500;
+}
+
+.regresar {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    transition-duration: 0.5s;
+}
+
+.regresar:hover {
+    color: rgb(196, 196, 196);
+}
+
+
+/* Formulario */
+
+.input {
+    min-width: 500px;
+    background-color: rgb(30, 29, 43);
+    color: white;
+    margin: 10px auto;
+}
+
+#formulario__container {
+    margin: auto;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 94.3vh;
+} 
+
+#formulario {
+    color: white;
+    width: 510px;
+   
+}
+
+#input__enviar {
+    font-family: 'Montserrat';
+    background-color: black;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px 30px;
+    transition-duration: 0.5s;
+    color: white;
+
+}
+
+#input__enviar:hover {
+    background-color: white;
+    color: black;
+}
+
+#formulario__h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+
+input {
+    margin: 10px;
+    margin-bottom: 30px;
+    border: 1px solid rgb(30, 29, 43);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+textarea {
+    resize: none;
+    border-radius: 5px;
+    border: 1px solid rgb(30, 29, 43);
+    min-width: 500px;
+    min-height: 150px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(30, 29, 43);
+    font-family: sans-serif;
+    color: white;
+}
+
+label {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+@media (max-width: 576px) {
+
+    .input {
+        min-width: 350px;
+        background-color: rgb(30, 29, 43);
+        color: white;
+        margin: 10px auto;
+    }
+    
+    textarea {
+        resize: none;
+        border-radius: 5px;
+        border: 1px solid rgb(30, 29, 43);
+        min-width: 350px;
+        min-height: 150px;
+        padding: 10px;
+        margin-top: 10px;
+        background-color: rgb(30, 29, 43);
+        font-family: sans-serif;
+        color: white;
+    }
+
+    label {
+        display: flex;
+        justify-content: center;
+    }
+
+    textarea {
+        display: flex;
+        justify-content: center;
+        margin: 10px auto;
+    }
+
+    input {
+        display: flex;
+        justify-content: center;
+        margin: 10px auto;
+    }
+
+    .formulario__container {
+        margin: auto 10px;
+    }
+}
