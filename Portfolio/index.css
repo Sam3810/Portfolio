@@ -101,18 +101,17 @@ header section {
 }
 .hero__img {
   max-width: 300px;
-  width: 300px;
 }
 
 /* Proyectos */
 #proyectos__container {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 40px;
 }
 #proyectos__container article {
-  flex: 1;
-  min-width: 250px;
+  max-width: 500px;
   color: black;
   border-radius: 10px;
   padding: 10px 20px;
@@ -130,10 +129,10 @@ header section {
   text-align: center;
   padding: 8px 15px;
   color: white;
-  margin: auto auto 0 auto;
+  margin: auto;
   width: 100px;
   transition-duration: 0.3s;
-  transition-duration: 0.5s;
+  box-shadow: 0 0 5px 1px rgba(0,0,0,0.4);
 }
 .proyecto__button:hover {
   background-color: white;
@@ -149,6 +148,12 @@ header section {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+#proyectos p {
+  font-size: 17px;
+}
+#proyectos h3 {
+  font-size: 22px;
 }
 
 /* Sobre mi */
@@ -226,14 +231,17 @@ body::-webkit-scrollbar-button {
   header section {
     flex-direction: column;
   }
-  #hero {
+  header {
+    background-color: rgb(3, 0, 20);
+  }
+  #hero{
     flex-direction: column;
   }
   #links a {
     font-size: 10px;
   }
   #header__img {
-    width: 35px;
+    width: 30px;
     height: 35px;
   }
 }
