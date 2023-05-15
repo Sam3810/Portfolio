@@ -8,41 +8,23 @@ body {
   background: linear-gradient(rgb(3, 0, 20), rgb(13, 24, 40));
   margin: 0;
   font-family: "Montserrat", sans-serif;
-}
-
-h1,
-h2,
-p {
   color: white;
+  font-size: 16px;
 }
 
-article h1,
-article h2,
-article p {
-  color: black;
-}
-
-/* 
-main {
-  margin-top: 40px;
-} */
-
-/* #titulo {
-  text-align: center;
-  font-size: 40px;
-} */
-
-/* 
-Chris - 
-Selector para todos los "sections"
-Aqui definimos los valores comunoes como ancho y margen incluendo el margen inferior de cada uno
-*/
 section {
   width: calc(100vw - 4rem);
   max-width: 1200px;
-  margin: 0 auto 50px;
-  /* border: 1px dashed red;*/
-  scroll-margin-top: 50px;
+  margin: 0 auto 60px;
+  /* border: 1px dashed red; */
+  scroll-margin-top: 60px;
+}
+section h2 {
+  font-size: 30px;
+  text-align: center;
+}
+section p {
+  font-size: 20px;
 }
 
 /* Header */
@@ -50,14 +32,12 @@ header {
   background-color: transparent;
   backdrop-filter: blur(10px);
   padding-right: 5px;
-
   position: sticky;
   top: 0;
   left: 0;
   right: 0;
   z-index: 999;
 }
-/* Chris - añadido section dentro del header para que se alina con los demás secciones */
 header section {
   display: flex;
   align-items: center;
@@ -70,259 +50,124 @@ header section {
   padding: 10px;
 }
 
-#links {
+/* NAV */
+#links__ul {
+  margin: 0;
+  padding: 0;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  text-align: center;
+  list-style: none;
+  width: 100%;
+  gap: 20px;
 }
-
 #links a {
+  color: #fff;
   text-decoration: none;
-  padding: 10px;
-  color: white;
   transition-duration: 0.3s;
   white-space: nowrap;
   text-align: center;
 }
-
 #links a:hover {
   color: rgb(238, 238, 238);
   opacity: 0.5;
 }
 
-#links__ul {
-  margin: 0px;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  list-style: none;
-  text-align: center;
-}
-
 /* Hero Section */
-
 #hero {
   display: flex;
-  justify-content: center;
-  align-items: left;
-  flex-direction: column;
-  background: rgb(5, 0, 20);
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
 }
-
-#hero__container {
-  display: flex;
-  margin: auto 15px;
-}
-
-#hero__container > div,
-#hero__container > img {
+#hero > div,
+#hero > img {
   flex: 1;
 }
-
-#hero__h1 {
+.hero__hello {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#hero h1 {
   font-size: 50px;
-  margin-bottom: 10px;
-  margin-top: 50px;
+  margin: 0;
 }
-
-#hero__p {
+#hero p {
   font-size: 25px;
-  margin-bottom: 100px;
-  width: 30vw;
+  margin: 0;
 }
-
-#hero__img {
+.hero__img {
   max-width: 300px;
+  width: 300px;
 }
 
 /* Proyectos */
-
-#proyectos__title {
-  margin: 0px;
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
-  font-size: 30px;
-}
-
-/* Proyectos Container */
-
 #proyectos__container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+  flex-wrap: wrap;
+  gap: 40px;
 }
-
-/* Proyecto 1 */
-
-#proyecto1 {
+#proyectos__container article {
+  flex: 1;
+  min-width: 250px;
+  color: black;
   border-radius: 10px;
-  padding: 10px;
+  padding: 10px 20px;
   text-align: center;
-  max-width: 385px;
-  min-height: 400px;
-  margin: 0px;
-  margin-top: 30px;
   background-color: white;
   box-shadow: 0 2px 8px rgba(204, 204, 204, 0.5);
+  display: flex;
+  flex-direction: column;
 }
-
-#proyecto__button {
+.proyecto__button {
   background-color: black;
   border: 1px solid black;
   border-radius: 5px;
   font-size: 15px;
-  color: white;
-  transition-duration: 0.3s;
-  font-family: "Montserrat", sans-serif;
-  transition-duration: 0.5s;
   text-align: center;
   padding: 8px 15px;
+  color: white;
+  margin: auto auto 0 auto;
+  width: 100px;
+  transition-duration: 0.3s;
+  transition-duration: 0.5s;
 }
-
-#proyecto__button:hover {
+.proyecto__button:hover {
   background-color: white;
   color: black;
 }
-
-#proyecto__img {
-  width: 360px;
-  height: 170px;
+.proyecto__img {
+  width: 100%;
+  aspect-ratio: 10/6;
   border-radius: 5px;
   border: 2px solid rgb(138, 138, 138);
-  padding: 0;
+}
+.proyecto__img img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-}
-
-#proyecto__h3 {
-  text-align: center;
-  font-size: 22px;
-}
-
-/* Proyecto 2  */
-
-#proyecto2 {
-  border-radius: 10px;
-  padding: 10px;
-  text-align: center;
-  max-width: 385px;
-  min-height: 400px;
-  margin: 0px;
-  margin-top: 30px;
-  background-color: white;
-  box-shadow: 0 2px 8px rgba(204, 204, 204, 0.5);
-}
-
-#proyecto2__button {
-  background-color: black;
-  border: 1px solid black;
-  border-radius: 5px;
-  font-size: 15px;
-  color: white;
-  transition-duration: 0.3s;
-  font-family: "Montserrat", sans-serif;
-  transition-duration: 0.5s;
-  text-align: center;
-  padding: 8px 15px;
-}
-
-#proyecto2__button:hover {
-  background-color: white;
-  color: black;
-}
-
-#proyecto2__img {
-  width: 360px;
-  height: 170px;
-  border-radius: 5px;
-  border: 2px solid rgb(138, 138, 138);
-  padding: 0;
-  object-fit: cover;
-}
-
-#proyecto2__h3 {
-  text-align: center;
-  font-size: 22px;
-}
-
-/* Proyecto 3 */
-
-#proyecto3 {
-  border-radius: 10px;
-  padding: 5px;
-  text-align: center;
-  min-width: 385px;
-  min-height: 410px;
-  margin: 0px;
-  margin-top: 30px;
-  background-color: white;
-  box-shadow: 0 2px 8px rgba(204, 204, 204, 0.5);
-}
-
-#proyecto3__h3 {
-  font-size: 22px;
-}
-
-#proyecto3__p {
-  font-size: 22px;
-}
-
-#proyecto3__p:hover {
-  animation: move 1s ease-in-out;
-  animation-iteration-count: infinite;
 }
 
 /* Sobre mi */
-
 #sobremi {
-  display: flex;
-  flex-direction: column;
   text-align: center;
-  scroll-margin-top: 60px;
-}
-
-#sobremi__title {
-  font-size: 30px;
-  margin: 0px;
-}
-
-#sobremi__p {
-  font-size: 20px;
 }
 
 /* Habilidades */
-
 #habilidades {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-#habilidades__h2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#habilidades__p {
-  display: flex;
   text-align: center;
 }
 
-#habilidades__title {
-  font-size: 30px;
-  margin: 0px;
-}
-
-#habilidades__p {
-  font-size: 20px;
-}
-
 /* Footer */
-
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 #footer__button {
   width: 110px;
   height: 40px;
@@ -336,30 +181,19 @@ header section {
   border-radius: 5px;
   transition-duration: 0.5s;
 }
-
 #footer__button:hover {
   background-color: rgb(15, 15, 15);
 }
-
 #footer__img {
   width: 30px;
   height: 30px;
   margin-right: 5px;
 }
-
 #footer__span {
   font-size: 15px;
   color: white;
   font-family: "Montserrat", sans-serif;
   padding-right: 5px;
-}
-
-footer {
-  display: flex;
-  justify-content: center;
-  color: white;
-  align-items: center;
-  flex-direction: column;
 }
 
 /* ScrollBar */
@@ -388,288 +222,19 @@ body::-webkit-scrollbar-button {
 }
 
 /* Responsive */
-
-@media (max-width: 576px) {
-  main {
-    margin-top: 20px;
-  }
-
-  header {
+@media (max-width: 700px) {
+  header section {
     flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(3, 0, 20);
   }
-
   #hero {
-    display: flex;
-    justify-content: center;
-    align-items: left;
-    flex-direction: column;
-    background: rgb(5, 0, 20);
-  }
-
-  #hero__container {
-    display: flex;
     flex-direction: column;
   }
-
-  #hero__container > div,
-  #hero__container > img {
-    flex: 1;
-  }
-
-  #hero__h1 {
-    font-size: 50px;
-    margin-bottom: 10px;
-    margin-top: 50px;
-    text-align: center;
-  }
-
-  #hero__p {
-    font-size: 25px;
-    margin-bottom: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 300px;
-    margin: auto;
-  }
-
-  #hero__img {
-    text-align: center;
-    margin: auto;
-    max-height: 300px;
-  }
-
   #links a {
     font-size: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5px;
   }
-
-  #links__ul {
-    padding: 5px;
-  }
-
   #header__img {
     width: 35px;
     height: 35px;
-  }
-
-  #proyectos {
-    /* scroll-margin-top: 50px; */ /* cambiado a comon "section" selector */
-  }
-
-  #proyectos__container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 5px;
-  }
-
-  /* Proyecto 1 */
-
-  #proyecto1 {
-    border-radius: 10px;
-    padding: 5px;
-    text-align: center;
-    max-width: 200px;
-    min-height: 100px;
-    margin: 0px;
-    margin-top: 30px;
-    background-color: white;
-    display: inline-block;
-    vertical-align: top;
-    box-shadow: 0 2px 8px rgba(204, 204, 204, 0.5);
-  }
-
-  #proyecto__button {
-    background-color: black;
-    color: white;
-    border-radius: 5px;
-    width: 45px;
-    height: 25px;
-    margin: 0px;
-    margin-bottom: 5px;
-    font-size: 10px;
-    border: 1px solid black;
-    transition-duration: 0.3s;
-    font-family: "Montserrat", sans-serif;
-    transition-duration: 0.5s;
-    text-align: center;
-    padding: 0;
-  }
-
-  #proyecto__button:hover {
-    background-color: white;
-    color: black;
-  }
-
-  #proyecto__img {
-    width: 160px;
-    height: 90px;
-    border-radius: 5px;
-    border: 2px solid rgb(138, 138, 138);
-    padding: 0;
-  }
-
-  #proyecto__h3 {
-    text-align: center;
-    font-size: 15px;
-  }
-
-  #proyecto__p {
-    font-size: 10px;
-  }
-
-  /* Proyecto 2 */
-
-  #proyecto2 {
-    border-radius: 10px;
-    padding: 5px;
-    text-align: center;
-    max-width: 200px;
-    min-height: 100px;
-    margin: 0px;
-    margin-top: 30px;
-    background-color: white;
-    display: inline-block;
-    vertical-align: top;
-    box-shadow: 0 2px 8px rgba(204, 204, 204, 0.5);
-  }
-
-  #proyecto2__button {
-    background-color: black;
-    color: white;
-    border-radius: 5px;
-    width: 45px;
-    height: 25px;
-    margin: 0px;
-    margin-bottom: 5px;
-    font-size: 10px;
-    border: 1px solid black;
-    transition-duration: 0.3s;
-    font-family: "Montserrat", sans-serif;
-    transition-duration: 0.5s;
-    text-align: center;
-    padding: 0;
-  }
-
-  #proyecto2__button:hover {
-    background-color: white;
-    color: black;
-  }
-
-  #proyecto2__img {
-    width: 160px;
-    height: 90px;
-    border-radius: 5px;
-    border: 2px solid rgb(138, 138, 138);
-    padding: 0;
-  }
-
-  #proyecto2__h3 {
-    text-align: center;
-    font-size: 15px;
-  }
-
-  #proyecto2__p {
-    font-size: 10px;
-  }
-
-  /* Poryecto 3 */
-
-  #proyecto3 {
-    border-radius: 10px;
-    padding: 5px;
-    text-align: center;
-    min-width: 200px;
-    min-height: 249px;
-    margin: 0px;
-    margin-top: 30px;
-    background-color: white;
-    display: inline-block;
-    vertical-align: top;
-    box-shadow: 0 2px 8px rgba(204, 204, 204, 0.5);
-  }
-
-  #proyecto3__h3 {
-    font-size: 15px;
-  }
-
-  #proyecto3__p {
-    font-size: 18px;
-  }
-
-  #proyecto3__p:hover {
-    animation: move 1s ease-in-out;
-    animation-iteration-count: infinite;
-  }
-
-  .input {
-    min-width: 200px;
-  }
-
-  #formulario__container {
-    background-color: white;
-    margin: auto;
-    margin-top: 50px;
-    border-radius: 10px;
-    padding-bottom: 20px;
-    width: 80%;
-    box-shadow: 0 2px 8px rgba(204, 204, 204, 0.5);
-  }
-
-  #formulario {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  #input__enviar {
-    font-family: "Montserrat";
-    background-color: rgb(255, 255, 164);
-    border: solid rgb(211, 211, 134);
-    border-radius: 5px;
-    padding: 10px;
-    transition-duration: 0.3s;
-    margin-top: 20px;
-    margin-bottom: 0;
-    color: black;
-  }
-
-  #input__enviar:hover {
-    transform: scale(1.2);
-  }
-
-  #formulario__h3 {
-    margin-bottom: 35px;
-    padding-top: 5px;
-    font-size: 20px;
-  }
-
-  input {
-    margin: 10px;
-    margin-bottom: 30px;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 5px;
-  }
-
-  textarea {
-    resize: none;
-    border-radius: 5px;
-    border: 1px solid black;
-    min-width: 200px;
-    padding: 5px;
-    margin-top: 10px;
   }
 }
 

@@ -1,154 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta name="description" content="Portafolio profesional de Samuel Vanegas Bueno, desarrollador Front-End colombiano">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portafolio profesional de Samuel Vanegas Bueno, desarrollador Front-End colombiano" />
     <title>Samuel Vanegas Bueno - Portfolio</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" href="./img/logo.ico" />
+  </head>
 
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="index.css">
-
-    <link rel="icon" href="./img/logo.ico">
-
-</head>
-
-
-
-<body>
-
+  <body>
     <header data-aos="fade-down" data-aos-duration="1000">
-        <section>
-            <img id="header__img" src="./img/logo.ico" alt="Logo de Samuel Vanegas Bueno con las siglas SB">
-            <nav id="links">  
-                <ul id="links__ul">
-                    <li><a href="#top">Inicio</a></li>
-                    <li><a href="#sobremi">Sobre mi</a></li>
-                    <li><a href="#habilidades">Habilidades</a></li>
-                    <li><a href="#proyectos">Proyectos</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-        </section>
+      <section>
+        <img
+          id="header__img"
+          src="./img/logo.ico"
+          alt="Logo de Samuel Vanegas Bueno con las siglas SB" />
+        <nav id="links">
+          <ul id="links__ul">
+            <li><a href="#top">Inicio</a></li>
+            <li><a href="#sobremi">Sobre mi</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </section>
     </header>
 
-
-
     <main>
-
-        <section id="hero">
-
-            <div id="hero__container">
-
-                <div>
-
-                    <h1 id="hero__h1" data-value="Hello World">Hello World</h1>
-
-                    <p id="hero__p">Hola! Soy Samuel Vanegas Bueno, desarrollador Front-End autodidacta.</p>
-
-                </div>
-
-                
-
-                <img  id="hero__img" src="./img/computador.gif" alt="Computador">
-
-            </div>
-
-             
-
-        </section>
-
-       
-
-
-        <section id="sobremi">
-            <h2 id="sobremi__title">Sobre mi</h2>
-            <p id="sobremi__p">Soy colombiano, tengo 12 años de edad, apasionado por la programacion y la astronomia, desarrollador Front-End autodidacta</p>
-
-        </section>
-     
-
-
-
-        <section id="habilidades"> 
-            <h2 id="habilidades__title">Habilidades</h2>
-            <p id="habilidades__p">Manejo lenguajes de programacion como HTML, JavaScript y CSS</p>
-        </section>
-
-  
-
-        
-
-        
-    <section id="proyectos">
-
-        <h2 id="proyectos__title">Proyectos</h2>
-
-        <div id="proyectos__container">  
-            
-            <article data-aos="zoom-in" data-aos-duration="1000" id="proyecto1">
-                <h3 id="proyecto__h3">Dra. Oriana Bueno</h3>
-                <img id="proyecto__img" src="./img/image.webp" alt="Imagen de sitio Web Dra. Oriana Bueno, creado por Samuel Vanegas Bueno">
-                <p id="proyecto__p">Pagina web, diseñada con HTML, CSS y JS, especificamente hecha para la Dra. Oftanmologa Pediatra Oriana Bueno Duque</p>
-                <button id="proyecto__button">Web</button>
-            </article>
-
-
-
-            <article data-aos="zoom-in" data-aos-duration="2000" id="proyecto2">
-                <h3 id="proyecto2__h3">Bethoven</h3>
-                <img id="proyecto2__img" src="./img/imagedds.webp" alt="Imagen de sitio Bethoven credo por Samuel Vanegas Bueno">
-                <p id="proyecto2__p">Pagina web, diseñada con HTML, CSS y JS, sobre una perfumeria ficticia llamada Bethoven</p>
-                <button id="proyecto2__button">Web</button>
-            </article>
-
-
-
-            <article data-aos="zoom-in" data-aos-duration="3000" id="proyecto3">
-                <h3 id="proyecto3__h3">Proximamente...</h3>
-                <p id="proyecto3__p">🔨</p>
-            </article>
-    
-    
-    
+      <section id="hero">
+        <div class="hero__hello">
+          <h1 data-value="Hello World">Hello World</h1>
+          <p>
+            Hola! Soy Samuel Vanegas Bueno, <br />desarrollador Front-End
+            autodidacta.
+          </p>
         </div>
-          
-        
-    </section>
-        
+        <img class="hero__img" src="./img/computador.gif" alt="Computador" />
+      </section>
 
+      <section id="sobremi">
+        <h2>Sobre mi</h2>
+        <p>
+          Soy colombiano, tengo 12 años de edad, apasionado por la programacion
+          y la astronomia, desarrollador Front-End autodidacta
+        </p>
+      </section>
 
+      <section id="habilidades">
+        <h2>Habilidades</h2>
+        <p>Manejo lenguajes de programacion como HTML, JavaScript y CSS</p>
+      </section>
+
+      <section id="proyectos">
+        <h2>Proyectos</h2>
+
+        <div id="proyectos__container">
+          <article data-aos="zoom-in" data-aos-duration="1000">
+            <h3 class="proyecto__title">Dra. Oriana Bueno</h3>
+            <div class="proyecto__img">
+              <img
+                src="./img/image.webp"
+                alt="Imagen de sitio Web Dra. Oriana Bueno, creado por Samuel Vanegas Bueno" />
+            </div>
+            <p>
+              Pagina web, diseñada con HTML, CSS y JS, especificamente hecha
+              para la Dra. Oftanmologa Pediatra Oriana Bueno Duque
+            </p>
+            <button class="proyecto__button">Web</button>
+          </article>
+
+          <article data-aos="zoom-in" data-aos-duration="2000">
+            <h3 class="proyecto__title">Bethoven</h3>
+            <div class="proyecto__img">
+              <img
+                src="./img/imagedds.webp"
+                alt="Imagen de sitio Bethoven credo por Samuel Vanegas Bueno" />
+            </div>
+            <p>
+              Pagina web, diseñada con HTML, CSS y JS, sobre una perfumeria
+              ficticia llamada Bethoven
+            </p>
+            <button class="proyecto__button">Web</button>
+          </article>
+
+          <article data-aos="zoom-in" data-aos-duration="3000">
+            <h3 class="proyecto__title">Proximamente...</h3>
+            <p>🔨</p>
+          </article>
+        </div>
+      </section>
     </main>
-    
 
-    <section id="footer">
+    <footer>
+      <p id="copyright">© Copyright 2023</p>
 
-        <footer>
+      <button id="footer__button">
+        <img
+          id="footer__img"
+          src="./img/GitHub-Mark.webp"
+          alt="Logo de GitHub" />
+        <span id="footer__span">GitHub</span>
+      </button>
+    </footer>
 
-        <p id="copyright">© Copyright 2023</p>
-
-        <button id="footer__button">
-            <img id="footer__img" src="./img/GitHub-Mark.webp" alt="Logo de GitHub">
-            <span id="footer__span">GitHub</span>
-        </button>
-
-        </footer>
-
-    </section>
-
-   
     <script src="./index.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script>
-        AOS.init();
+      AOS.init();
     </script>
-
-</body>
+  </body>
 </html>
