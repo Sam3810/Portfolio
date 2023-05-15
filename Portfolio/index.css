@@ -22,13 +22,27 @@ article p {
   color: black;
 }
 
+/* 
 main {
   margin-top: 40px;
-}
+} */
 
-#titulo {
+/* #titulo {
   text-align: center;
   font-size: 40px;
+} */
+
+/* 
+Chris - 
+Selector para todos los "sections"
+Aqui definimos los valores comunoes como ancho y margen incluendo el margen inferior de cada uno
+*/
+section {
+  width: calc(100vw - 4rem);
+  max-width: 1200px;
+  margin: 0 auto 50px;
+  /* border: 1px dashed red;*/
+  scroll-margin-top: 50px;
 }
 
 /* Header */
@@ -84,18 +98,6 @@ header section {
   flex-direction: row;
   list-style: none;
   text-align: center;
-}
-/* 
-Chris - 
-Selector para todos los "sections"
-Aqui definimos los valores comunoes como ancho y margen incluendo el margen inferior de cada uno
-*/
-section {
-  width: calc(100vw - 4rem);
-  max-width: 1200px;
-  margin: 0 auto 50px;
-  /* border: 1px dashed red;*/
-  scroll-margin-top: 50px;
 }
 
 /* Hero Section */
