@@ -524,11 +524,7 @@ body::-webkit-scrollbar-button {
     }
 
     #hero__img {
-        max-width: 300px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
+        visibility: hidden;
     }
 
 
