@@ -51,6 +51,9 @@ header section {
 }
 
 /* NAV */
+a{
+  text-decoration: none;
+}
 #links__ul {
   margin: 0;
   padding: 0;
@@ -64,7 +67,6 @@ header section {
 }
 #links a {
   color: #fff;
-  text-decoration: none;
   transition-duration: 0.3s;
   white-space: nowrap;
   text-align: center;
