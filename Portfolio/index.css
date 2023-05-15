@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
 
 html {
     overflow-y: scroll;
@@ -87,7 +87,50 @@ main {
     flex-direction: row;
     list-style: none;
     text-align: center;
+    
 }
+
+
+
+/* Hero Section */
+
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    background:rgb(5, 0, 20);
+}
+
+#hero__container {
+    display: flex;
+    margin: auto 15px;
+}
+
+#hero__container > div, #hero__container > img {
+    flex: 1;
+}
+
+#hero__h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+#hero__p {
+    font-size: 25px;
+    margin-bottom: 100px;
+    width: 30vw;
+}
+
+#hero__img {
+    max-width: 300px;
+}
+
+
+
+
+
 
 
 
@@ -278,6 +321,7 @@ main {
     display: flex;
     flex-direction: column;
     text-align: center;
+    scroll-margin-top: 60px;
 }
 
 #sobremi__title {
@@ -394,7 +438,7 @@ footer {
 body::-webkit-scrollbar {
     width: 10px;
     border-radius: 5px;
-    background-color: rgb(24, 24, 24)
+    background-color: rgb(3, 0, 20)
   }
    
 body::-webkit-scrollbar-track {
@@ -403,15 +447,15 @@ body::-webkit-scrollbar-track {
    
 body::-webkit-scrollbar-thumb {
     border-radius: 5px;
-    background-color: #6e7375;
+    background-color: #585c5e;
   }
 
 body::-webkit-scrollbar-thumb:hover {
-    background-color: #5a5e5f;
+    background-color: #4a4d4e;
 }
 
 body::-webkit-scrollbar-button {
-    background-color: rgb(24, 24, 24);
+    background-color: rgb(3, 0, 20);
 }
 
 
@@ -439,6 +483,54 @@ body::-webkit-scrollbar-button {
     background-color: rgb(3, 0, 20);
    }
 
+
+
+
+
+   #hero {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    background:rgb(5, 0, 20);
+    }
+
+    #hero__container {
+        display: flex;
+        flex-direction: column;
+        margin: auto 15px;
+    }
+
+    #hero__container > div, #hero__container > img {
+        flex: 1;
+    }
+
+    #hero__h1 {
+        font-size: 50px;
+        margin-bottom: 10px;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    #hero__p {
+        font-size: 25px;
+        margin-bottom: 100px;
+        text-align: center;
+        width: 300px;
+    }
+
+    #hero__img {
+        max-width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+
+
+
+
    
 
    #links a {
@@ -460,6 +552,11 @@ body::-webkit-scrollbar-button {
    }
 
 
+
+
+   #proyectos {
+    scroll-margin-top: 50px;
+   }
 
 
 

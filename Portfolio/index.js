@@ -1,9 +1,8 @@
 let button = document.getElementById('proyecto__button')
 let button2  = document.getElementById('proyecto2__button')
 let github = document.getElementById('footer__button')
-
-
-
+const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+let interval = null;
 
 
 
@@ -22,6 +21,36 @@ function page2 () {
 
 function githubpage () {
     window.open('https://github.com/Sam3810')
+}
+
+
+
+
+
+
+document.querySelector("h1").onmouseover = event => {  
+  let iteration = 0;
+  
+  clearInterval(interval);
+  
+  interval = setInterval(() => {
+    event.target.innerText = event.target.innerText
+      .split("")
+      .map((letter, index) => {
+        if(index < iteration) {
+          return event.target.dataset.value[index];
+        }
+      
+        return letters[Math.floor(Math.random() * 26)]
+      })
+      .join("");
+    
+    if(iteration >= event.target.dataset.value.length){ 
+      clearInterval(interval);
+    }
+    
+    iteration += 1 / 3;
+  }, 30);
 }
 
 
