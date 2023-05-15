@@ -151,12 +151,13 @@ a{
   margin: auto;
   width: 77px;
   transition-duration: 0.3s;
-  box-shadow: 0 0 5px 1px rgba(0,0,0,0.4);
+  
 }
 
 .proyecto__button:hover {
   background-color: white;
   color: black;
+  box-shadow: 3px 4px 6px 0 rgba(0,0,0,0.4);
 }
 
 .proyecto__img {
@@ -214,6 +215,7 @@ footer {
 
 #footer__button:hover {
   background-color: rgb(15, 15, 15);
+  box-shadow: 3px 4px 6px 0 rgba(0,0,0,0.4);
 }
 
 #footer__img {
@@ -268,13 +270,9 @@ body::-webkit-scrollbar-button {
     flex-direction: column;
   }
 
-  #links a {
+  #links li {
+    padding-bottom: 10px;
     font-size: 10px;
-  }
-
-  #header__img {
-    width: 30px;
-    height: 35px;
   }
 }
 
