@@ -285,7 +285,7 @@ main {
     padding: 5px;
     text-align: center;
     min-width: 385px;
-    min-height: 400px;
+    min-height: 410px;
     margin: 0px;
     margin-top: 30px;
     background-color: white;
@@ -599,15 +599,15 @@ body::-webkit-scrollbar-button {
 }
 
     #proyecto__button {
-    background-color: rgb(255, 255, 164);
-    color: black;
+    background-color: black;
+    color: white;
     border-radius: 5px;
     width: 45px;
     height: 25px;
     margin: 0px;
     margin-bottom: 5px;
     font-size: 10px;
-    border: solid rgb(211, 211, 134);
+    border: 1px solid black;
     transition-duration: 0.3s;
     font-family: 'Montserrat', sans-serif;
     transition-duration: 0.5s;
@@ -616,9 +616,8 @@ body::-webkit-scrollbar-button {
 }
 
     #proyecto__button:hover {
-    transform: scale(1.2);
-    background-color: rgb(231, 231, 149);
-    border: solid rgb(209, 209, 134);
+    background-color: white;
+    color: black;
 }
 
     #proyecto__img {
@@ -657,15 +656,15 @@ body::-webkit-scrollbar-button {
     }
     
         #proyecto2__button {
-        background-color: rgb(255, 255, 164);
-        color: black;
+        background-color: black;
+        color: white;
         border-radius: 5px;
         width: 45px;
         height: 25px;
         margin: 0px;
         margin-bottom: 5px;
         font-size: 10px;
-        border: solid rgb(211, 211, 134);
+        border: 1px solid black;
         transition-duration: 0.3s;
         font-family: 'Montserrat', sans-serif;
         transition-duration: 0.5s;
@@ -674,9 +673,8 @@ body::-webkit-scrollbar-button {
     }
     
         #proyecto2__button:hover {
-        transform: scale(1.2);
-        background-color: rgb(231, 231, 149);
-        border: solid rgb(209, 209, 134);
+        background-color: white;
+        color: black;
     }
     
         #proyecto2__img {
