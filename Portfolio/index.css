@@ -514,6 +514,7 @@ body::-webkit-scrollbar-button {
 
     #hero__p {
         font-size: 25px;
+        margin-bottom: 100px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -523,7 +524,9 @@ body::-webkit-scrollbar-button {
     }
 
     #hero__img {
-        visibility: hidden;
+        text-align: center;
+        margin: auto;
+        max-height: 300px;
     }
 
 
