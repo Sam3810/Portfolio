@@ -11,6 +11,7 @@ body {
     color: white;
     font-size: 15px;
     transition-duration: 0.5s;
+    padding: 10px 10px 10px 0px;
 }
 
 .regresar:hover {
