@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background: linear-gradient(270deg, rgb(3, 0, 20), rgb(13, 24, 40));
+    background: linear-gradient(rgb(3, 0, 20), rgb(13, 24, 40));
     font-weight: 500;
 }
 
@@ -20,11 +20,14 @@ body {
 
 /* Formulario */
 
-.input {
+input {
     min-width: 500px;
     background-color: rgb(30, 29, 43);
     color: white;
     margin: 10px auto;
+    border: 1px solid rgb(30, 29, 43);
+    border-radius: 5px;
+    padding: 10px;
 }
 
 #formulario__container {
@@ -51,7 +54,7 @@ body {
     padding: 10px 30px;
     transition-duration: 0.5s;
     color: white;
-
+    min-width: 100px;
 }
 
 #input__enviar:hover {
@@ -65,13 +68,7 @@ body {
 }
 
 
-input {
-    margin: 10px;
-    margin-bottom: 30px;
-    border: 1px solid rgb(30, 29, 43);
-    border-radius: 5px;
-    padding: 10px;
-}
+
 
 textarea {
     resize: none;
