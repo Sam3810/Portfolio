@@ -118,6 +118,7 @@ label {
         display: flex;
         justify-content: center;
         margin: 10px auto;
+        max-width: 200px;
     }
 
     .formulario__container {
