@@ -127,19 +127,15 @@ a:hover {
 }
 
 .hero__button {
-  display: flex;
-  justify-content: center;
+  display: inline;
   background-color: black;
   border: 1px solid black;
   border-radius: 5px;
   font-size: 15px;
-  font-family: 'Montserrat', sans-serif;
   text-align: center;
   padding: 8px 15px;
   color: white;
-  margin-bottom: 20px;
-  margin-top: -20px;
-  padding: 7px 12px;
+  margin: auto;
   transition-duration: 0.3s;
 }
 
