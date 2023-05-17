@@ -91,7 +91,7 @@ label {
 @media (max-width: 576px) {
 
     .input {
-        width: 350px;
+        width: 200px;
         background-color: rgb(30, 29, 43);
         color: white;
         margin: 10px auto;
