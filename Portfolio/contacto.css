@@ -28,6 +28,7 @@ input {
     border: 1px solid rgb(30, 29, 43);
     border-radius: 5px;
     padding: 10px;
+    font-family: sans-serif;
     box-shadow: 5px 5px 11px 0 rgb(3, 0, 20);
 }
 
@@ -97,6 +98,7 @@ label {
         max-width: 300px;
         max-height: 150px;
         padding: 10px;
+        margin: auto;
         margin-top: 10px;
         background-color: rgb(30, 29, 43);
         font-family: sans-serif;
