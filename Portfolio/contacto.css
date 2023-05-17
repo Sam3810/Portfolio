@@ -21,10 +21,12 @@ body {
 /* Formulario */
 
 input {
-    width: 500px;
+    display: flex;
+    justify-content: center;
+    width: 490px;
     background-color: rgb(30, 29, 43);
     color: white;
-    margin: 10px auto;
+    margin: 0;
     border: 1px solid rgb(30, 29, 43);
     border-radius: 5px;
     padding: 10px;
@@ -38,7 +40,7 @@ textarea {
     resize: none;
     border-radius: 5px;
     border: 1px solid rgb(30, 29, 43);
-    width: 500px;
+    width: 490px;
     height: 150px;
     padding: 10px;
     margin: auto;
@@ -52,6 +54,7 @@ textarea {
 label {
     display: flex;
     justify-content: flex-start;
+    margin-bottom: 5px;
     margin-top: 20px;
 }
 
@@ -93,30 +96,21 @@ label {
 }
 
 @media (max-width: 576px) {
-    
     textarea {
-        resize: none;
-        border-radius: 5px;
-        border: 1px solid rgb(30, 29, 43);
-        max-width: 300px;
-        max-height: 150px;
-        padding: 10px;
-        margin-top: 10px;
-        background-color: rgb(30, 29, 43);
-        font-family: sans-serif;
-        color: white;
+        max-width: 340px;
     }
 
     label {
         display: flex;
         justify-content: center;
+        margin-bottom: 10px;
     }
 
     input {
         display: flex;
         justify-content: center;
-        margin: 10px auto;
-        max-width: 300px;
+        margin: auto;
+        max-width: 340px;
     }
 
     .formulario__container {

@@ -52,6 +52,24 @@ header section {
   justify-content: space-between;
 }
 
+.buttons {
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 15px;
+  text-align: center;
+  padding: 8px 15px;
+  color: white;
+  margin: auto;
+  transition-duration: 0.3s; 
+}
+
+.buttons:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 3px 4px 6px 0 rgba(0,0,0,0.4);
+}
+
 #header__img {
   border-radius: 15px;
   width: 60px;
@@ -126,25 +144,6 @@ a:hover {
   max-height: 300px;
 }
 
-.hero__button {
-  display: inline;
-  background-color: black;
-  border: 1px solid black;
-  border-radius: 5px;
-  font-size: 15px;
-  text-align: center;
-  padding: 8px 15px;
-  color: white;
-  margin: auto;
-  transition-duration: 0.3s;
-}
-
-.hero__button:hover {
-  background-color: white;
-  color: black;
-  box-shadow: 3px 4px 6px 0 rgba(0,0,0,0.4);
-}
-
 /* Proyectos */
 #proyectos__container {
   display: flex;
@@ -163,25 +162,6 @@ a:hover {
   box-shadow: 0 2px 8px rgba(204, 204, 204, 0.5);
   display: flex;
   flex-direction: column;
-}
-
-.proyecto__button {
-  background-color: black;
-  border: 1px solid black;
-  border-radius: 5px;
-  font-size: 15px;
-  text-align: center;
-  padding: 8px 15px;
-  color: white;
-  margin: auto;
-  transition-duration: 0.3s;
-  
-}
-
-.proyecto__button:hover {
-  background-color: white;
-  color: black;
-  box-shadow: 3px 4px 6px 0 rgba(0,0,0,0.4);
 }
 
 .proyecto__img {
