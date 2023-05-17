@@ -21,7 +21,7 @@ body {
 /* Formulario */
 
 input {
-    min-width: 500px;
+    width: 500px;
     background-color: rgb(30, 29, 43);
     color: white;
     margin: 10px auto;
@@ -91,7 +91,7 @@ label {
 @media (max-width: 576px) {
 
     .input {
-        max-width: 350px;
+        width: 350px;
         background-color: rgb(30, 29, 43);
         color: white;
         margin: 10px auto;
