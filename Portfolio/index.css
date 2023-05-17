@@ -140,6 +140,12 @@ a:hover {
   transition-duration: 0.3s;
 }
 
+.hero__button:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 3px 4px 6px 0 rgba(0,0,0,0.4);
+}
+
 /* Proyectos */
 #proyectos__container {
   display: flex;
