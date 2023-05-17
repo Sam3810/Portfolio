@@ -41,6 +41,7 @@ textarea {
     width: 500px;
     height: 150px;
     padding: 10px;
+    margin: auto;
     margin-top: 10px;
     background-color: rgb(30, 29, 43);
     font-family: sans-serif;
