@@ -137,7 +137,7 @@ a:hover {
   text-align: center;
   padding: 8px 15px;
   color: white;
-  margin: auto;
+  margin-bottom: 20px;
   padding: 7px 12px;
   transition-duration: 0.3s;
 }
