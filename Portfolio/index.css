@@ -125,6 +125,19 @@ a:hover {
   max-height: 300px;
 }
 
+.hero__button {
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 15px;
+  text-align: center;
+  padding: 8px 15px;
+  color: white;
+  margin: auto;
+  width: 77px;
+  transition-duration: 0.3s;
+}
+
 /* Proyectos */
 #proyectos__container {
   display: flex;
