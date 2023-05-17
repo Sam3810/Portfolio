@@ -101,8 +101,8 @@ label {
         resize: none;
         border-radius: 5px;
         border: 1px solid rgb(30, 29, 43);
-        min-width: 350px;
-        min-height: 150px;
+        width: 350px;
+        height: 150px;
         padding: 10px;
         margin-top: 10px;
         background-color: rgb(30, 29, 43);
