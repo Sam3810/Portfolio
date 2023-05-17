@@ -35,8 +35,8 @@ textarea {
     resize: none;
     border-radius: 5px;
     border: 1px solid rgb(30, 29, 43);
-    min-width: 500px;
-    min-height: 150px;
+    width: 500px;
+    height: 150px;
     padding: 10px;
     margin-top: 10px;
     background-color: rgb(30, 29, 43);
@@ -95,7 +95,7 @@ label {
         border-radius: 5px;
         border: 1px solid rgb(30, 29, 43);
         max-width: 300px;
-        height: 150px;
+        max-height: 150px;
         padding: 10px;
         margin-top: 10px;
         background-color: rgb(30, 29, 43);
