@@ -94,7 +94,7 @@ label {
         resize: none;
         border-radius: 5px;
         border: 1px solid rgb(30, 29, 43);
-        width: 350px;
+        max-width: 300px;
         height: 150px;
         padding: 10px;
         margin-top: 10px;
@@ -106,13 +106,6 @@ label {
     label {
         display: flex;
         justify-content: center;
-    }
-
-    textarea {
-        display: flex;
-        justify-content: center;
-        margin: 10px auto;
-        max-width: 300px;
     }
 
     input {
