@@ -70,6 +70,25 @@ header section {
   box-shadow: 3px 4px 6px 0 rgba(0,0,0,0.4);
 }
 
+.hero__button {
+  display: inline-block;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 15px;
+  text-align: center;
+  padding: 8px 15px;
+  color: white;
+  margin: auto;
+  transition-duration: 0.3s; 
+}
+
+.hero__button:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 3px 4px 6px 0 rgba(0,0,0,0.4);
+}
+
 #header__img {
   border-radius: 15px;
   width: 60px;
