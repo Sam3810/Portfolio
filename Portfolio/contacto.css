@@ -97,7 +97,7 @@ label {
 
 @media (max-width: 576px) {
     textarea {
-        max-width: 340px;
+        max-width: 320px;
     }
 
     label {
@@ -110,7 +110,7 @@ label {
         display: flex;
         justify-content: center;
         margin: auto;
-        max-width: 340px;
+        max-width: 320px;
     }
 
     .formulario__container {

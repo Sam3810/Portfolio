@@ -34,24 +34,6 @@ section p {
   font-size: 20px;
 }
 
-/* Header */
-header {
-  background-color: transparent;
-  backdrop-filter: blur(10px);
-  padding-right: 5px;
-  position: sticky;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 999;
-}
-
-header section {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .buttons {
   background-color: black;
   border: 1px solid black;
@@ -70,30 +52,22 @@ header section {
   box-shadow: 3px 4px 6px 0 rgba(0,0,0,0.4);
 }
 
-.hero__button {
-  display: inline-block;
-  background-color: black;
-  border: 1px solid black;
-  border-radius: 5px;
-  font-size: 15px;
-  text-align: center;
-  padding: 8px 15px;
-  color: white;
-  margin: auto;
-  transition-duration: 0.3s; 
+/* Header */
+header {
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  padding-right: 5px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
 }
 
-.hero__button:hover {
-  background-color: white;
-  color: black;
-  box-shadow: 3px 4px 6px 0 rgba(0,0,0,0.4);
-}
-
-#header__img {
-  border-radius: 15px;
-  width: 60px;
-  height: 60px;
-  padding: 10px;
+header section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* NAV */
@@ -129,6 +103,13 @@ a:hover {
   opacity: 0.5;
 }
 
+#header__img {
+  border-radius: 15px;
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+}
+
 /* Hero Section */
 #hero {
   display: flex;
@@ -161,6 +142,25 @@ a:hover {
 .hero__img {
   max-width: 300px;
   max-height: 300px;
+}
+
+.hero__button {
+  display: inline-block;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 15px;
+  text-align: center;
+  padding: 8px 15px;
+  color: white;
+  margin: auto;
+  transition-duration: 0.3s; 
+}
+
+.hero__button:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 3px 4px 6px 0 rgba(0,0,0,0.4);
 }
 
 /* Proyectos */
