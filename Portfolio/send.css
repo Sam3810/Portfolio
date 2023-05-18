@@ -42,17 +42,16 @@ h1, h2, p {
 
 #a {
     border-radius: 5px;
-    background-color: black;
+    border: 1px solid white;
     font-family: 'Montserrat', sans-serif;
     padding: 8px 8px;
-    transition: background-color 1s;
     text-decoration: none;
     color: white;
+    transition-duration: 0.3s;
 }
 
 #a:hover {
-    background-color: white;
-    color: black;
+    opacity: 0.5;
 }
 
 #img:hover {
