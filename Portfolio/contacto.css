@@ -75,19 +75,22 @@ label {
 
 #input__enviar {
     font-family: 'Montserrat';
-    background-color: black;
+    background-color: transparent;
     margin: 10px auto;
     border-radius: 10px;
-    border: 1px solid black;
+    border: 1px solid white;
     padding: 10px 30px;
     transition-duration: 0.5s;
     color: white;
     min-width: 100px;
+    box-shadow: 5px 5px 11px 0 rgb(3, 0, 20);
 }
 
 #input__enviar:hover {
     background-color: white;
     color: black;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 0 rgb(3, 0, 20);
 }
 
 #formulario__h1 {
