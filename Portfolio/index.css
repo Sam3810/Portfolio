@@ -157,7 +157,7 @@ a:hover {
 }
 
 .hero__button:hover {
-  background: linear-gradient(220deg, rgb(59, 147, 206), rgb(83, 197, 140));
+  background: linear-gradient(220deg, rgb(59, 147, 220), rgb(83, 208, 140));
   box-shadow: 4px 5px 3px 0 rgba(0, 0, 0, 0.5);
 }
 
