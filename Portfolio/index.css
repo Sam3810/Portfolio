@@ -318,7 +318,7 @@ body::-webkit-scrollbar-button {
   .habilidades__img {
     max-width: 90px;
     max-height: 90px;
-    margin: 10px;
+    margin: 5px;
   }
 }
 
