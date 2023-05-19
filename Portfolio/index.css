@@ -148,12 +148,12 @@ a:hover {
   background: linear-gradient(200deg, rgb(54, 135, 189), rgb(76, 180, 128));
   border: 1px solid white;
   border-radius: 5px;
-  font-size: 15px;
+  font-size: 17px;
   text-align: center;
   padding: 8px 15px;
   color: white;
   margin: auto;
-  transition-duration: 0.3s;
+  transition-duration: 0.5s;
 }
 
 .hero__button:hover {
