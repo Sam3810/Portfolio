@@ -83,7 +83,7 @@ a {
 }
 
 a:hover {
-  box-shadow: 3px 4px 5px 0 black;
+  box-shadow: 3px 4px 6px 0 rgba(0,0,0,0.4);
 }
 
 #links__ul {
@@ -145,6 +145,7 @@ a:hover {
 }
 
 .hero__button {
+  background: linear-gradient(200deg, rgb(59, 147, 206), rgb(83, 197, 140));
   border: 1px solid white;
   border-radius: 5px;
   font-size: 15px;
@@ -156,7 +157,8 @@ a:hover {
 }
 
 .hero__button:hover {
-  opacity: 0.5;
+  background: linear-gradient(220deg, rgb(59, 147, 206), rgb(83, 197, 140));
+  box-shadow: 4px 5px 3px 0 rgba(0, 0, 0, 0.5);
 }
 
 /* Proyectos */
