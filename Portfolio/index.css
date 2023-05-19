@@ -223,6 +223,7 @@ a:hover {
   max-width: 150px;
   max-height: 150px;
   transition-duration: 0.5s;
+  margin: auto 5px;
 }
 
 .habilidades__img:hover {
@@ -315,8 +316,9 @@ body::-webkit-scrollbar-button {
   }
 
   .habilidades__img {
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 90px;
+    max-height: 90px;
+    margin: 10px;
   }
 }
 
