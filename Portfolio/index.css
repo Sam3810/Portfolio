@@ -159,6 +159,7 @@ a:hover {
 .hero__button:hover {
   background: linear-gradient(220deg, rgb(54, 135, 200), rgb(76, 190, 128));
   box-shadow: 4px 5px 3px 0 rgba(0, 0, 0, 0.5);
+  filter: blur(1.3px);
 }
 
 /* Proyectos */
