@@ -221,7 +221,7 @@ a:hover {
 
 .habilidades__img {
   max-width: 150px;
-  max-height: 150px;
+  max-height: 145px;
   transition-duration: 0.5s;
   margin: auto 5px;
 }
