@@ -54,11 +54,6 @@ h1, h2, p {
     opacity: 0.5;
 }
 
-#img:hover {
-    transform: scale(1.1);
-}
-
-
 /* ScrollBar */ 
 
 body::-webkit-scrollbar {
