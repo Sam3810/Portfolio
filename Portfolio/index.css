@@ -157,7 +157,7 @@ a:hover {
 }
 
 .hero__button:hover {
-  background: linear-gradient(220deg, rgb(54, 135, 200), rgb(76, 190, 128));
+  background: linear-gradient(230deg, rgb(54, 135, 200), rgb(76, 190, 128));
   box-shadow: 4px 5px 3px 0 rgba(0, 0, 0, 0.5);
   filter: blur(1.3px);
 }
@@ -221,7 +221,7 @@ a:hover {
 
 .habilidades__img {
   max-width: 150px;
-  max-height: 145px;
+  max-height: 140px;
   transition-duration: 0.5s;
   margin: auto 5px;
 }
