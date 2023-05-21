@@ -23,7 +23,7 @@ input,textarea {
     width: 490px;
     background-color: rgb(30, 29, 43);
     color: white;
-    margin: 0;
+    margin: 25px 0;
     border: 1px solid rgb(30, 29, 43);
     border-radius: 5px;
     padding: 10px;
@@ -74,6 +74,12 @@ label {
 #formulario__h1 {
     text-align: center;
     font-size: 35px;
+
+    background: linear-gradient(185deg, rgb(73, 182, 255), rgb(215, 184, 255));
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
 }
 
 @media (max-width: 576px) {

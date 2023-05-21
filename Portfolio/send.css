@@ -26,6 +26,10 @@ h1, h2, p {
     font-size: 45px;
     margin: 0;
     text-align: center;
+    background: linear-gradient(185deg, rgb(73, 182, 255), rgb(215, 184, 255));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
 }
 
 #p {

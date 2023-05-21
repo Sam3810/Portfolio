@@ -130,8 +130,14 @@ a:hover {
 }
 
 #hero h1 {
+  background: linear-gradient(185deg, rgb(73, 182, 255), rgb(215, 184, 255));
   font-size: 50px;
   margin: 0;
+
+  -webkit-text-fill-color: transparent;
+
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 
 #hero p {
@@ -145,7 +151,7 @@ a:hover {
 }
 
 .hero__button {
-  background: linear-gradient(200deg, rgb(54, 135, 189), rgb(76, 180, 128));
+  background: linear-gradient(200deg, rgb(64, 156, 218), rgb(159, 137, 189));
   border: 1px solid white;
   border-radius: 5px;
   font-size: 17px;
@@ -157,7 +163,7 @@ a:hover {
 }
 
 .hero__button:hover {
-  background: linear-gradient(230deg, rgb(54, 135, 200), rgb(76, 190, 128));
+  background: linear-gradient(230deg, rgb(64, 156, 218), rgb(159, 137, 189));
   box-shadow: 4px 5px 3px 0 rgba(0, 0, 0, 0.5);
   filter: blur(1.3px);
 }
