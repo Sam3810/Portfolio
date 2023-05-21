@@ -173,7 +173,7 @@ a:hover {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 25px;
 }
 
 #proyectos__container article {
