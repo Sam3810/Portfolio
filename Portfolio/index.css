@@ -133,9 +133,7 @@ a:hover {
   background: linear-gradient(185deg, rgb(73, 182, 255), rgb(215, 184, 255));
   font-size: 50px;
   margin: 0;
-
   -webkit-text-fill-color: transparent;
-
   -webkit-background-clip: text;
   background-clip: text;
 }
@@ -329,39 +327,3 @@ body::-webkit-scrollbar-button {
 }
 
 /* Key Frames */
-
-@keyframes move {
-  0% {
-    transform: rotate(5deg);
-  }
-  10% {
-    transform: rotate(10deg);
-  }
-  20% {
-    transform: rotate(15deg);
-  }
-  30% {
-    transform: rotate(20deg);
-  }
-  40% {
-    transform: rotate(25deg);
-  }
-  50% {
-    transform: rotate(25deg);
-  }
-  60% {
-    transform: rotate(20deg);
-  }
-  70% {
-    transform: rotate(15deg);
-  }
-  80% {
-    transform: rotate(10deg);
-  }
-  90% {
-    transform: rotate(5deg);
-  }
-  100% {
-    transform: rotate(5deg);
-  }
-}
