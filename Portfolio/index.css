@@ -52,6 +52,12 @@ section p {
   box-shadow: 3px 4px 6px 0 rgba(0,0,0,0.4);
 }
 
+.abrir-menu, .cerrar-menu {
+  display: none;
+  background: none;
+  border: none;
+}
+
 /* Header */
 header {
   background-color: transparent;
@@ -83,7 +89,7 @@ a {
   text-decoration: none;
 }
 
-#nav-list {
+.nav-list {
   margin: 0;
   padding: 0;
   display: flex;
@@ -95,14 +101,14 @@ a {
   gap: 20px;
 }
 
-#nav a {
+.nav a {
   color: white;
   transition-duration: 0.3s;
   white-space: nowrap;
   text-align: center;
 }
 
-#nav a:hover {
+.nav a:hover {
   color: rgb(238, 238, 238);
   opacity: 0.5;
 }
@@ -275,7 +281,7 @@ footer {
 /* ScrollBar */
 
 body::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
   border-radius: 5px;
   background-color: rgb(3, 0, 20);
 }
@@ -299,10 +305,6 @@ body::-webkit-scrollbar-button {
 
 /* Responsive */
 @media (max-width: 700px) {
-  header section {
-    flex-direction: column;
-  }
-
   header {
     background-color: rgb(3, 0, 20);
   }
@@ -311,16 +313,54 @@ body::-webkit-scrollbar-button {
     flex-direction: column;
   }
 
-  #nav li {
-    padding-bottom: 10px;
-    font-size: 10px;
-  }
-
   .habilidades__img {
     max-width: 90px;
     max-height: 90px;
     margin: 5px;
   }
+
+  .nav {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .nav {
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-right: 5px;
+    gap: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    background-color: black;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+  }
+
+  .nav.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    align-items: end;
+    padding: 10px 10px 0 20px;
+  }
+
+  .abrir-menu, .cerrar-menu {
+    display: block;
+    padding-right: 10px;
+  }
+
+  .cerrar-menu > img {
+    width: 15px;
+  }
+
 }
 
 /* Key Frames */
