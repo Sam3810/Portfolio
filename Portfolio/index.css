@@ -34,24 +34,6 @@ section p {
   font-size: 20px;
 }
 
-/* Header */
-header {
-  background-color: transparent;
-  backdrop-filter: blur(10px);
-  padding-right: 5px;
-  position: sticky;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 999;
-}
-
-header section {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .buttons {
   background-color: black;
   border: 1px solid black;
@@ -70,6 +52,25 @@ header section {
   box-shadow: 3px 4px 6px 0 rgba(0,0,0,0.4);
 }
 
+/* Header */
+header {
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  backface-visibility: hidden;
+  padding-right: 5px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+header section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 #header__img {
   border-radius: 15px;
   width: 60px;
@@ -82,7 +83,7 @@ a {
   text-decoration: none;
 }
 
-#links__ul {
+#nav-list {
   margin: 0;
   padding: 0;
   display: flex;
@@ -94,14 +95,14 @@ a {
   gap: 20px;
 }
 
-#links a {
-  color: #fff;
+#nav a {
+  color: white;
   transition-duration: 0.3s;
   white-space: nowrap;
   text-align: center;
 }
 
-#links a:hover {
+#nav a:hover {
   color: rgb(238, 238, 238);
   opacity: 0.5;
 }
@@ -176,7 +177,7 @@ a {
   border-radius: 10px;
   padding: 10px 20px;
   text-align: center;
-  background-color: rgb(64, 77, 97);
+  background-color: white;
   box-shadow: 4px 5px 3px 0 rgba(3, 0, 20, 0.5);
   display: flex;
   flex-direction: column;
@@ -310,7 +311,7 @@ body::-webkit-scrollbar-button {
     flex-direction: column;
   }
 
-  #links li {
+  #nav li {
     padding-bottom: 10px;
     font-size: 10px;
   }
