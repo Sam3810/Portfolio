@@ -61,7 +61,7 @@ section p {
 /* Header */
 header {
   background-color: transparent;
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(10px);
   backface-visibility: hidden;
   padding-right: 5px;
   position: sticky;
@@ -228,8 +228,8 @@ a {
 }
 
 .habilidades__img {
-  max-width: 150px;
-  max-height: 140px;
+  max-width: 120px;
+  max-height: 120px;
   transition-duration: 0.5s;
   margin: auto 5px;
 }
@@ -309,7 +309,7 @@ body::-webkit-scrollbar-button {
     background-color: rgb(3, 0, 20);
   }
 
-  #hero{
+  #hero {
     flex-direction: column;
   }
 
