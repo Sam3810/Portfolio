@@ -192,7 +192,6 @@ a {
 .proyecto__img {
   width: 100%;
   aspect-ratio: 10/6;
-  border: 2px solid rgb(95, 95, 95);
   border-radius: 5px;
 }
 
