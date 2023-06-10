@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portafolio profesional de Samuel Vanegas Bueno, desarrollador Front-End colombiano" />
+    <meta name="keywords" content="Programacion, Front-End, Desarrollo Web, Samuel Vanegas Bueno">
+    <meta name="category" content="Programacion">
+    <title>Samuel Vanegas Bueno - Portfolio</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" href="./img/logo.webp" />
+  </head>
+
+  <body>
+    <header data-aos="fade-down" data-aos-duration="1000">
+      <section>
+        <img id="header__img" src="./img/logo.webp" alt="Logo de Samuel Vanegas Bueno con las siglas SB" />
+
+        <button id="abrir" class="abrir-menu">
+          <img src="./img/menu.svg" alt="">
+        </button>
+
+        <nav id="nav" class="nav">
+
+          <button id="cerrar" class="cerrar-menu">
+            <img src="./img/cancel.svg" alt="">
+          </button>
+
+          <ul class="nav-list">
+            <li><a href="#top">Inicio</a></li>
+            <li><a href="#sobremi">Sobre mi</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+
+    <main>
+      <section id="hero">
+        <div class="hero__hello">
+          <h1>Hello World</h1>
+          <p>
+            Hola! Soy Samuel Vanegas Bueno, <br>desarrollador Front-End.
+          </p>
+
+          <div>
+            <a href="./contacto.html" class="hero__button">Contactame</a>
+          </div>
+          
+        </div>
+        <img class="hero__img" src="./img/computador.gif" alt="Computador" />
+        
+      </section>
+
+      <section id="sobremi">
+        <h2>Sobre mi</h2>
+        <p>
+          Soy colombiano, tengo 12 años de edad, apasionado por la programacion
+          y la astronomia, tengo poco mas de un mes de experiencia, constante y siempre queriendo aprender mas.
+        </p>
+      </section>
+
+      <section id="habilidades">
+        <h2>Habilidades</h2>
+        <div data-aos="zoom-out" data-aos-duration="1000" class="habilidades__div">
+          <p>
+            <img class="habilidades__img" src="./img/badge-html-5-512.webp" alt="Logo de HTML">
+            <img class="habilidades__img" src="./img/CSS3_logo_and_wordmark.svg.webp" alt="Logo de CSS">
+            <img class="habilidades__img" src="./img/JavaScript-logo.webp" alt="Logo de JavaScript">
+            <img class="habilidades__img" src="./img/Git-Icon-1788C.webp" alt="Logo de Git">
+          </p>
+        </div>
+        
+      </section>
+
+      <section id="proyectos">
+        <h2>Proyectos</h2>
+
+        <div data-aos="fade-up" data-aos-duration="1000" id="proyectos__container">
+          <article>
+            <h3 class="proyecto__title">Dra. Oriana Bueno</h3>
+            <div class="proyecto__img">
+              <img src="./img/dra.webp" alt="Imagen de sitio Web Dra. Oriana Bueno, creado por Samuel Vanegas Bueno" />
+            </div>
+            <p>
+              Pagina web, diseñada con HTML, CSS y JS, especificamente hecha
+              para la Dra. Oriana Bueno Duque
+            </p>
+            <a target="_blank" href="https://orianabuenoduque.netlify.app" class="buttons">Web</a>
+          </article>
+
+          <article>
+            <h3 class="proyecto__title">GitHub Page</h3>
+            <div class="proyecto__img">
+              <img src="./img/github.webp" alt="Imagen de GitHub Page diseñado por Samuel Vanegas Bueno" />
+            </div>
+            <p>
+              Pagina web, copia de un diseño de GitHub Team diseñado con HTML y CSS
+            </p>
+            <a target="_blank" href="https://githubpage.netlify.app/" class="buttons">Web</a>
+          </article>
+
+          <article>
+            <h3 class="proyecto__title">Calculadora</h3>
+            <div class="proyecto__img">
+              <img src="./img/239718635-f58be7e1-ee82-4519-bfe5-daf2c088d4ef.webp" alt="Imagen de una calculadora creada por Samuel Vanegas Bueno" />
+            </div>
+            <p>
+              Calculadora basica hecha con HTML, CSS y JS
+            </p>
+            <a target="_blank" href="https://jcalcs.netlify.app" class="buttons">Web</a>
+          </article>
+
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p id="copyright">© Copyright 2023</p>
+
+      <a target="_blank" href="https://github.com/Sam3810" id="footer__button">
+        <img id="footer__img" src="./img/github.svg" alt="Logo de GitHub" />
+        <span id="footer__span">GitHub</span>
+      </a>
+    </footer>
+
+    <script src="./index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
