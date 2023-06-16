@@ -15,6 +15,15 @@ body {
     padding: 10px 10px 10px 0;
 }
 
+.regresar > img {
+    width: 13px;
+    transition-duration: 0.3s;
+}
+
+.regresar > img:hover {
+    opacity: 0.5;
+}
+
 /* Formulario */
 
 input,textarea {
@@ -50,7 +59,7 @@ label {
     justify-content: center;
     align-items: center;
     height: 93.8vh;
-} 
+}
 
 #input__enviar {
     font-family: 'Montserrat';
