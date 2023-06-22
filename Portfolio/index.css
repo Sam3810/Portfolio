@@ -43,7 +43,7 @@ section p {
   padding: 8px 15px;
   color: white;
   margin: auto;
-  transition-duration: 0.3s; 
+  transition-duration: 0.3s;
 }
 
 .buttons:hover {
@@ -359,7 +359,9 @@ body::-webkit-scrollbar-button {
   .cerrar-menu > img {
     width: 15px;
   }
-
+  .hero__img {
+    max-width: 250px;
+  }
 }
 
 /* Key Frames */
