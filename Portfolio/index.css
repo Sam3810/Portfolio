@@ -629,6 +629,11 @@ article {
   display: block;
 }
 
+#buttonsDiv {
+  display: flex;
+  gap: 20px;
+}
+
 /* Sobre mi */
 #sobremi {
   text-align: center;
@@ -788,6 +793,10 @@ body::-webkit-scrollbar-button {
 
   #next, #back {
     padding: 0;
+  }
+
+  #proyectos__container {
+    flex-direction: column;
   }
 }
 /* Key Frames */
