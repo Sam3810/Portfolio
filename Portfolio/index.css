@@ -787,17 +787,5 @@ body::-webkit-scrollbar-button {
   .hero__img {
     max-width: 250px;
   }
-
-  #proyectos__container button > img {
-    width: 15px;
-  }
-
-  #next, #back {
-    padding: 0;
-  }
-
-  #proyectos__container {
-    flex-direction: column;
-  }
 }
 /* Key Frames */
